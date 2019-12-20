@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_edge3">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        xmlns:widget="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/rounded_edge3"
+        android:orientation="horizontal"
+
+        android:id="@+id/relativeLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <!--  ListRow Left sied Thumbnail image -->
+
+        <!-- Title Of Song-->
+        <com.example.tagog.first.MyTextView2
+            android:id="@+id/title"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3449bb"
+            android:typeface="sans"
+            android:textSize="13dip"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_edge3" />
+
+        <!-- Artist Name -->
+
+        <TextView
+            android:text="رقم صاحب الناقلة:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView65"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="3dp"
+            android:textColor="#000" />
+
+        <com.example.tagog.first.MyTextView2
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:text="تطبيق خيّــال لنقل الخيول نسخة 1.0"
+            android:gravity="right"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/textView65"
+            android:layout_centerHorizontal="true" />
+
+        <!-- Rightend Duration -->
+
+
+        <!-- Rightend Arrow -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp">
+
+
+        <com.example.tagog.first.CustomButtona
+
+            android:background="#294d6f"
+            android:id="@+id/app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اتصال بصاحب الناقلة"
+            android:onClick="FragmentTwoClick"
+            android:layout_weight="2"
+            android:layout_marginLeft="0dp"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

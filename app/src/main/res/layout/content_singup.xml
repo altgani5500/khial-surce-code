@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tagog.first.Singup"
+    tools:showIn="@layout/singup"
+    android:background="#fff">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#fff">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="اضغط هنا لارفاق صورة الناقلة:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:gravity="center" />
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/imageView3"
+                android:background="@android:drawable/ic_menu_camera"
+                android:gravity="right|center_vertical|center_horizontal|center"
+                android:layout_gravity="center" />
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView12" />
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:layout_marginBottom="7dp"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="الاسم"
+                android:textSize="@dimen/text_margin"
+                android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+                android:inputType="textPersonName"
+                android:gravity="center_vertical|center" />
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:layout_marginBottom="7dp"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="رقم الهاتف بدون صفر"
+                android:gravity="center"
+                android:textSize="@dimen/action_button_content_margin"
+                android:drawableLeft="@drawable/cucode"
+                android:inputType="phone"
+                android:elevation="1dp" />
+
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText8"
+
+                android:layout_marginBottom="7dp"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="كلمة السر"
+                android:textSize="@dimen/action_button_content_margin"
+                android:drawableLeft="@android:drawable/ic_menu_always_landscape_portrait"
+                android:inputType="numberPassword"
+                android:gravity="center_vertical|center" />
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText844"
+
+                android:layout_marginBottom="7dp"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="اعد كلمة السر"
+                android:textSize="@dimen/action_button_content_margin"
+                android:drawableLeft="@android:drawable/ic_menu_always_landscape_portrait"
+                android:inputType="numberPassword"
+                android:gravity="center_vertical|center" />
+
+
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText7"
+                android:hint="رقم البطاقة او الاقامة"
+                android:textSize="@dimen/action_button_content_margin"
+                android:layout_marginBottom="7dp"
+                android:drawableLeft="@android:drawable/ic_menu_edit"
+                android:inputType="number"
+                android:gravity="center_vertical|center" />
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+
+                android:id="@+id/editText64"
+                android:hint="رقم لوحة العربة"
+                android:textSize="@dimen/action_button_content_margin"
+                android:drawableLeft="@android:drawable/ic_menu_week"
+                android:inputType="text"
+                android:layout_marginBottom="7dp"
+                android:gravity="center_vertical|center" />
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+
+                android:ems="10"
+                android:id="@+id/editText10"
+
+
+                android:hint="نوع الشاحنة وموديلها"
+                android:textSize="@dimen/action_button_content_margin"
+
+
+                android:drawableLeft="@android:drawable/ic_menu_info_details"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical|center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+
+            android:background="#fff"
+            android:layout_marginBottom="8dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:id="@+id/button8"
+                android:text=" شروط الاستخدام"
+
+                android:background="#fff"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+
+
+        </LinearLayout>
+
+        <CheckBox
+            android:text="اوافق علي كل الشروط"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:gravity="center|start"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.tagog.first.CustomButtona
+                android:text="اتمام العملية"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:background="#294d6f"
+                android:textColor="#fff"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:elevation="1dp"
+                android:onClick="signup"
+                android:textStyle="normal|bold"
+                android:layout_marginBottom="25dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

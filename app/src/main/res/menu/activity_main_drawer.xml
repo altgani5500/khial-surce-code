@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:title="دخول سائق" />
+
+        <item
+            android:id="@+id/singup"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="انشاء حساب سائق" />
+        <item
+            android:id="@+id/pro"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="ابلاغ عن مشكلة" />
+
+
+        <item
+            android:id="@+id/aboutapp"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="عن التطبيق" />
+        <item
+            android:id="@+id/aboutme"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="عن المصمم" />
+
+        <item
+            android:id="@+id/aboutme2"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="تواصل معنا" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title=" خروج" />
+    </group>
+
+
+
+</menu>

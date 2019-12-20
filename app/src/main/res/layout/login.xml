@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tagog.first.Login"
+    android:background="#fff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:layout_marginBottom="15dp"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="رقم الهاتف"
+                android:textSize="@dimen/text_margin"
+                android:drawableLeft="@android:drawable/ic_menu_call" />
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:layout_marginBottom="20dp"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="كلمة السر"
+                android:gravity="right|center_vertical"
+                android:textSize="@dimen/action_button_content_margin"
+                android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+                android:elevation="1dp"
+                android:inputType="numberPassword" />
+
+            <CheckBox
+                android:text="حفظ الدخول"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox2"
+                android:layout_gravity="right" />
+
+            <com.example.tagog.first.CustomButtona
+                android:text="دخول"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:background="#294d6f"
+                android:textColor="#fff"
+                android:layout_marginBottom="20dp" />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="هل انت سائق جديد ؟"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:gravity="center"
+                android:textColor="#113543"
+                android:textSize="@dimen/action_button_content_margin"
+                android:textStyle="normal|bold"
+                android:layout_marginBottom="10dp" />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="اتصل بنا "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:textColor="#113543"
+                android:textSize="@dimen/action_button_content_margin"
+                android:layout_marginBottom="6dp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/button88"
+                android:background="#fff"
+                android:text="شروط الاستخدام"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

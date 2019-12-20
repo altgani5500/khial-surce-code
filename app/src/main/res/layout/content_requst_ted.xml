@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tagog.first.Requst_ted"
+    tools:showIn="@layout/requst_ted">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp">
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp">
+                    <com.example.tagog.first.MyTextView2
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button5"
+
+                        android:layout_alignParentLeft="false"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:textSize="12sp" />
+
+                    <com.example.tagog.first.MyTextView2
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"
+                        android:textStyle="normal|bold" />
+                </RelativeLayout>
+
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/to1"
+                    android:layout_below="@+id/from1"
+
+                    android:gravity="right|center"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:hint="رقم الهاتف"
+                    android:inputType="number"
+                    android:background="@drawable/test2222"
+                    android:drawableLeft="@android:drawable/ic_menu_call"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:id="@+id/from1"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:gravity="right|center"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:elevation="1dp"
+                    android:hint="اسم مقدم الطلب"
+                    android:background="@drawable/test2222"
+                    android:duplicateParentState="false"
+                    android:drawableLeft="@android:drawable/ic_menu_edit"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textSize="14sp" />
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Spinner
+                    android:background="@drawable/test2222"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/from2"
+                    android:entries="@array/spinner_item2"
+
+                    android:layout_marginTop="9dp"
+                    android:layout_alignParentTop="true"
+
+                    android:gravity="center"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:elevation="1dp"
+                    android:hint="حدد التاريخ"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+
+                <com.example.tagog.first.MyTextView2
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/textView48"
+                    android:layout_below="@+id/from2"
+                    android:textColor="@android:color/holo_red_dark" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+
+                    android:id="@+id/to2"
+                    android:entries="@array/spinner_item"
+                    android:gravity="center"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:background="@drawable/test2222"
+                    android:layout_height="50dp"
+                    android:elevation="1dp"
+                    android:hint="حدد الوقت"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_below="@+id/textView48"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.example.tagog.first.MyTextView2
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/to"
+                    android:background="@drawable/test2222"
+                    android:elevation="1dp"
+                    android:layout_below="@+id/from"
+
+                    android:gravity="right|center"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7dp"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:hint="حدد الوقت"
+                    android:inputType="number"
+                    android:drawableLeft="@android:drawable/ic_menu_recent_history"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColor="#000" />
+
+                <com.example.tagog.first.MyEditText
+
+                    android:background="@drawable/test2222"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/from"
+                    android:layout_marginTop="7dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:gravity="right|center"
+                    android:elevation="1dp"
+                    android:hint="اسم القرية المراد التوجة اليها"
+                    android:inputType="text"
+                    android:drawableLeft="@android:drawable/ic_menu_week"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.tagog.first.MyEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:gravity="right|center"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:elevation="1dp"
+                    android:hint="عدد الخيول"
+                    android:background="@drawable/test2222"
+                    android:duplicateParentState="false"
+                    android:drawableLeft="@android:drawable/ic_menu_month"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:id="@+id/editText3"
+                    android:inputType="number" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.tagog.first.MyEditText
+                    android:layout_width="fill_parent"
+
+                    android:inputType="textMultiLine"
+
+                    android:id="@+id/editText4"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:gravity="right"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:elevation="1dp"
+                    android:background="@drawable/test2222"
+                    android:duplicateParentState="false"
+                    android:drawableLeft="@android:drawable/ic_menu_info_details"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:hint="ملاحظات"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="3dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="ارسال التعديل"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button9"
+                    android:elevation="1dp"
+                    android:background="#294d6f"
+                    android:layout_marginTop="15dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#fff"
+                    android:onClick="signup" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

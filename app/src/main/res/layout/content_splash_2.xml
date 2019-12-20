@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tagog.first.Splash_2"
+    tools:showIn="@layout/splash_2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.tagog.first.MyTextView2
+            android:text="تطبيق خيّال لنقل الخيول  داخل المملكة العربية السعوية ويتيح لك ايضا الوصول الي اخر اخبار مناشط الخيل داخل المملكة يمكنك استخدام التطبيق للاعلان فيه عن الرحلات اذا كنت سائق ولديك ناقلة فقط قم بانشاء حساب سائق داخل التطبيق  وسيتم اخذ عمولة 5% جراء اي رحلة تمت بواسطة التطبيق او يمكنك طلب ناقلة خيل  من داخل التطبيق "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:text="اوافق علي كل الشروط"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+
+        <com.example.tagog.first.CustomButtona
+            android:text="موافقة ومتابعة"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button11"
+            android:elevation="1dp"
+            android:background="#294d6f"
+            android:textColor="#fff" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

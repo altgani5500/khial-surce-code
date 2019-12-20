@@ -1,0 +1,674 @@
+<resources>
+    <string name="app_name">الاعلانات</string>
+    <string name="town">اختر المدينة</string>
+
+
+    <string name="error_empty_field">الرجاء مل الحقل </string>
+
+    <string-array name="spinner_item2">
+        <item>حدد مكان التحرك</item>
+        <item>أبها</item>
+        <item>أبو-عريش</item>
+        <item>أحد-المسارحة</item>
+        <item>أحد-رفيدة</item>
+        <item>أضم</item>
+        <item>الأحساء</item>
+        <item>الأسياح</item>
+        <item>الأفلاج</item>
+        <item>الباحة</item>
+        <item>البدائع</item>
+        <item>البدع</item>
+        <item>البرك</item>
+        <item>البكيرية</item>
+        <item>الجبيل</item>
+        <item>الجموم</item>
+        <item>الحائط</item>
+        <item>الحجرة</item>
+        <item>الحرث</item>
+        <item>الحريق</item>
+        <item>الحناكية</item>
+        <item>الخبر</item>
+        <item>الخرج</item>
+        <item>الخرخير</item>
+        <item>الخرمة</item>
+        <item>الخفجي</item>
+        <item>الدائر</item>
+        <item>الدرب</item>
+        <item>الدرعية</item>
+        <item>الدمام</item>
+        <item>الدوادمي</item>
+        <item>الرس</item>
+        <item>الرياض</item>
+        <item>الريث</item>
+        <item>الرين</item>
+        <item>الزلفي</item>
+        <item>السليل</item>
+        <item>السليمي</item>
+        <item>الشماسية</item>
+        <item>الشملي</item>
+        <item>الشنان</item>
+        <item>الطائف</item>
+        <item>الطوال</item>
+        <item>العارضة</item>
+        <item>العديد</item>
+        <item>العرضيات</item>
+        <item>العقيق</item>
+        <item>العلا</item>
+        <item>العويقيلة</item>
+        <item>العيدابي</item>
+        <item>العيص</item>
+        <item>الغاط</item>
+        <item>الغزالة</item>
+        <item>القرى</item>
+        <item>القريات</item>
+        <item>القطيف</item>
+        <item>القنفذة</item>
+        <item>القويعية</item>
+        <item>الكامل</item>
+        <item>الليث</item>
+        <item>المجاردة</item>
+        <item>المجمعة</item>
+        <item>المخواة</item>
+        <item>المدينة-المنورة</item>
+        <item>المذنب</item>
+        <item>المزاحمية</item>
+        <item>المندق</item>
+        <item>المويه</item>
+        <item>النبهانية</item>
+        <item>النعيرية</item>
+        <item>النماص</item>
+        <item>الوجه</item>
+        <item>أملج</item>
+        <item>بارق</item>
+        <item>بحرة</item>
+        <item>بدر</item>
+        <item>بدر-الجنوب</item>
+        <item>بريدة</item>
+        <item>بقعاء</item>
+        <item>بقيق</item>
+        <item>بلجرشي</item>
+        <item>بلقرن</item>
+        <item>بني-حسن</item>
+        <item>بيش</item>
+        <item>بيشة</item>
+        <item>تبوك</item>
+        <item>تثليث</item>
+        <item>تربة</item>
+        <item>تنومة</item>
+        <item>تيماء</item>
+        <item>ثادق</item>
+        <item>ثار</item>
+        <item>جازان</item>
+        <item>جدة</item>
+        <item>جزر-فرسان</item>
+        <item>حائل</item>
+        <item>حبونا</item>
+        <item>حريملاء</item>
+        <item>حفر-الباطن</item>
+        <item>حقل</item>
+        <item>حوطة-بني-تميم</item>
+        <item>خباش</item>
+        <item>خليص</item>
+        <item>خميس-مشيط</item>
+        <item>خيبر</item>
+        <item>دومة-الجندل</item>
+        <item>رابغ</item>
+        <item>رأس-تنورة</item>
+        <item>رجال-ألمع</item>
+        <item>رفحاء</item>
+        <item>رماح</item>
+        <item>رنية</item>
+        <item>رياض-الخبراء</item>
+        <item>سراة-عبيدة</item>
+        <item>سكاكا</item>
+        <item>سميراء</item>
+        <item>شرورة</item>
+        <item>شقراء</item>
+        <item>صامطة</item>
+        <item>صبيا</item>
+        <item>ضبا</item>
+        <item>ضرما</item>
+        <item>ضرية</item>
+        <item>ضمد</item>
+        <item>طبرجل</item>
+        <item>طريب</item>
+        <item>طريف</item>
+        <item>ظهران-الجنوب</item>
+        <item>عرعر</item>
+        <item>عفيف</item>
+        <item>عقلة-الصقور</item>
+        <item>عنيزة</item>
+        <item>عيون-الجواء</item>
+        <item>غامد-الزناد</item>
+        <item>فيفاء</item>
+        <item>قرية-العليا</item>
+        <item>قلوة</item>
+        <item>محايل-عسير</item>
+        <item>مرات</item>
+        <item>مكة-المكرمة</item>
+        <item>مهد-الذهب</item>
+        <item>موقق</item>
+        <item>ميسان</item>
+        <item>نجران</item>
+        <item>هروب</item>
+        <item>وادي-الدواسر</item>
+        <item>وادي-الفرع</item>
+        <item>يدمه</item>
+        <item>ينبع</item>
+    </string-array>
+
+
+    <string-array name="spinner_item">
+        <item>حدد مكان الوجهة</item>
+
+        <item>أبها</item>
+        <item>أبو-عريش</item>
+        <item>أحد-المسارحة</item>
+        <item>أحد-رفيدة</item>
+        <item>أضم</item>
+        <item>الأحساء</item>
+        <item>الأسياح</item>
+        <item>الأفلاج</item>
+        <item>الباحة</item>
+        <item>البدائع</item>
+        <item>البدع</item>
+        <item>البرك</item>
+        <item>البكيرية</item>
+        <item>الجبيل</item>
+        <item>الجموم</item>
+        <item>الحائط</item>
+        <item>الحجرة</item>
+        <item>الحرث</item>
+        <item>الحريق</item>
+        <item>الحناكية</item>
+        <item>الخبر</item>
+        <item>الخرج</item>
+        <item>الخرخير</item>
+        <item>الخرمة</item>
+        <item>الخفجي</item>
+        <item>الدائر</item>
+        <item>الدرب</item>
+        <item>الدرعية</item>
+        <item>الدمام</item>
+        <item>الدوادمي</item>
+        <item>الرس</item>
+        <item>الرياض</item>
+        <item>الريث</item>
+        <item>الرين</item>
+        <item>الزلفي</item>
+        <item>السليل</item>
+        <item>السليمي</item>
+        <item>الشماسية</item>
+        <item>الشملي</item>
+        <item>الشنان</item>
+        <item>الطائف</item>
+        <item>الطوال</item>
+        <item>العارضة</item>
+        <item>العديد</item>
+        <item>العرضيات</item>
+        <item>العقيق</item>
+        <item>العلا</item>
+        <item>العويقيلة</item>
+        <item>العيدابي</item>
+        <item>العيص</item>
+        <item>الغاط</item>
+        <item>الغزالة</item>
+        <item>القرى</item>
+        <item>القريات</item>
+        <item>القطيف</item>
+        <item>القنفذة</item>
+        <item>القويعية</item>
+        <item>الكامل</item>
+        <item>الليث</item>
+        <item>المجاردة</item>
+        <item>المجمعة</item>
+        <item>المخواة</item>
+        <item>المدينة-المنورة</item>
+        <item>المذنب</item>
+        <item>المزاحمية</item>
+        <item>المندق</item>
+        <item>المويه</item>
+        <item>النبهانية</item>
+        <item>النعيرية</item>
+        <item>النماص</item>
+        <item>الوجه</item>
+        <item>أملج</item>
+        <item>بارق</item>
+        <item>بحرة</item>
+        <item>بدر</item>
+        <item>بدر-الجنوب</item>
+        <item>بريدة</item>
+        <item>بقعاء</item>
+        <item>بقيق</item>
+        <item>بلجرشي</item>
+        <item>بلقرن</item>
+        <item>بني-حسن</item>
+        <item>بيش</item>
+        <item>بيشة</item>
+        <item>تبوك</item>
+        <item>تثليث</item>
+        <item>تربة</item>
+        <item>تنومة</item>
+        <item>تيماء</item>
+        <item>ثادق</item>
+        <item>ثار</item>
+        <item>جازان</item>
+        <item>جدة</item>
+        <item>جزر-فرسان</item>
+        <item>حائل</item>
+        <item>حبونا</item>
+        <item>حريملاء</item>
+        <item>حفر-الباطن</item>
+        <item>حقل</item>
+        <item>حوطة-بني-تميم</item>
+        <item>خباش</item>
+        <item>خليص</item>
+        <item>خميس-مشيط</item>
+        <item>خيبر</item>
+        <item>دومة-الجندل</item>
+        <item>رابغ</item>
+        <item>رأس-تنورة</item>
+        <item>رجال-ألمع</item>
+        <item>رفحاء</item>
+        <item>رماح</item>
+        <item>رنية</item>
+        <item>رياض-الخبراء</item>
+        <item>سراة-عبيدة</item>
+        <item>سكاكا</item>
+        <item>سميراء</item>
+        <item>شرورة</item>
+        <item>شقراء</item>
+        <item>صامطة</item>
+        <item>صبيا</item>
+        <item>ضبا</item>
+        <item>ضرما</item>
+        <item>ضرية</item>
+        <item>ضمد</item>
+        <item>طبرجل</item>
+        <item>طريب</item>
+        <item>طريف</item>
+        <item>ظهران-الجنوب</item>
+        <item>عرعر</item>
+        <item>عفيف</item>
+        <item>عقلة-الصقور</item>
+        <item>عنيزة</item>
+        <item>عيون-الجواء</item>
+        <item>غامد-الزناد</item>
+        <item>فيفاء</item>
+        <item>قرية-العليا</item>
+        <item>قلوة</item>
+        <item>محايل-عسير</item>
+        <item>مرات</item>
+        <item>مكة-المكرمة</item>
+        <item>مهد-الذهب</item>
+        <item>موقق</item>
+        <item>ميسان</item>
+        <item>نجران</item>
+        <item>هروب</item>
+        <item>وادي-الدواسر</item>
+        <item>وادي-الفرع</item>
+        <item>يدمه</item>
+        <item>ينبع</item>
+    </string-array>
+
+
+    <string-array name="spinner_items">
+        <item>حدد مكان التحرك</item>
+        <item>الكل</item>
+        <item>أبها</item>
+        <item>أبو-عريش</item>
+        <item>أحد-المسارحة</item>
+        <item>أحد-رفيدة</item>
+        <item>أضم</item>
+        <item>الأحساء</item>
+        <item>الأسياح</item>
+        <item>الأفلاج</item>
+        <item>الباحة</item>
+        <item>البدائع</item>
+        <item>البدع</item>
+        <item>البرك</item>
+        <item>البكيرية</item>
+        <item>الجبيل</item>
+        <item>الجموم</item>
+        <item>الحائط</item>
+        <item>الحجرة</item>
+        <item>الحرث</item>
+        <item>الحريق</item>
+        <item>الحناكية</item>
+        <item>الخبر</item>
+        <item>الخرج</item>
+        <item>الخرخير</item>
+        <item>الخرمة</item>
+        <item>الخفجي</item>
+        <item>الدائر</item>
+        <item>الدرب</item>
+        <item>الدرعية</item>
+        <item>الدمام</item>
+        <item>الدوادمي</item>
+        <item>الرس</item>
+        <item>الرياض</item>
+        <item>الريث</item>
+        <item>الرين</item>
+        <item>الزلفي</item>
+        <item>السليل</item>
+        <item>السليمي</item>
+        <item>الشماسية</item>
+        <item>الشملي</item>
+        <item>الشنان</item>
+        <item>الطائف</item>
+        <item>الطوال</item>
+        <item>العارضة</item>
+        <item>العديد</item>
+        <item>العرضيات</item>
+        <item>العقيق</item>
+        <item>العلا</item>
+        <item>العويقيلة</item>
+        <item>العيدابي</item>
+        <item>العيص</item>
+        <item>الغاط</item>
+        <item>الغزالة</item>
+        <item>القرى</item>
+        <item>القريات</item>
+        <item>القطيف</item>
+        <item>القنفذة</item>
+        <item>القويعية</item>
+        <item>الكامل</item>
+        <item>الليث</item>
+        <item>المجاردة</item>
+        <item>المجمعة</item>
+        <item>المخواة</item>
+        <item>المدينة-المنورة</item>
+        <item>المذنب</item>
+        <item>المزاحمية</item>
+        <item>المندق</item>
+        <item>المويه</item>
+        <item>النبهانية</item>
+        <item>النعيرية</item>
+        <item>النماص</item>
+        <item>الوجه</item>
+        <item>أملج</item>
+        <item>بارق</item>
+        <item>بحرة</item>
+        <item>بدر</item>
+        <item>بدر-الجنوب</item>
+        <item>بريدة</item>
+        <item>بقعاء</item>
+        <item>بقيق</item>
+        <item>بلجرشي</item>
+        <item>بلقرن</item>
+        <item>بني-حسن</item>
+        <item>بيش</item>
+        <item>بيشة</item>
+        <item>تبوك</item>
+        <item>تثليث</item>
+        <item>تربة</item>
+        <item>تنومة</item>
+        <item>تيماء</item>
+        <item>ثادق</item>
+        <item>ثار</item>
+        <item>جازان</item>
+        <item>جدة</item>
+        <item>جزر-فرسان</item>
+        <item>حائل</item>
+        <item>حبونا</item>
+        <item>حريملاء</item>
+        <item>حفر-الباطن</item>
+        <item>حقل</item>
+        <item>حوطة-بني-تميم</item>
+        <item>خباش</item>
+        <item>خليص</item>
+        <item>خميس-مشيط</item>
+        <item>خيبر</item>
+        <item>دومة-الجندل</item>
+        <item>رابغ</item>
+        <item>رأس-تنورة</item>
+        <item>رجال-ألمع</item>
+        <item>رفحاء</item>
+        <item>رماح</item>
+        <item>رنية</item>
+        <item>رياض-الخبراء</item>
+        <item>سراة-عبيدة</item>
+        <item>سكاكا</item>
+        <item>سميراء</item>
+        <item>شرورة</item>
+        <item>شقراء</item>
+        <item>صامطة</item>
+        <item>صبيا</item>
+        <item>ضبا</item>
+        <item>ضرما</item>
+        <item>ضرية</item>
+        <item>ضمد</item>
+        <item>طبرجل</item>
+        <item>طريب</item>
+        <item>طريف</item>
+        <item>ظهران-الجنوب</item>
+        <item>عرعر</item>
+        <item>عفيف</item>
+        <item>عقلة-الصقور</item>
+        <item>عنيزة</item>
+        <item>عيون-الجواء</item>
+        <item>غامد-الزناد</item>
+        <item>فيفاء</item>
+        <item>قرية-العليا</item>
+        <item>قلوة</item>
+        <item>محايل-عسير</item>
+        <item>مرات</item>
+        <item>مكة-المكرمة</item>
+        <item>مهد-الذهب</item>
+        <item>موقق</item>
+        <item>ميسان</item>
+        <item>نجران</item>
+        <item>هروب</item>
+        <item>وادي-الدواسر</item>
+        <item>وادي-الفرع</item>
+        <item>يدمه</item>
+        <item>ينبع</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="spinner_items2">
+        <item>حدد مكان التحرك</item>
+        <item>الكل</item>
+        <item>أبها</item>
+        <item>أبو-عريش</item>
+        <item>أحد-المسارحة</item>
+        <item>أحد-رفيدة</item>
+        <item>أضم</item>
+        <item>الأحساء</item>
+        <item>الأسياح</item>
+        <item>الأفلاج</item>
+        <item>الباحة</item>
+        <item>البدائع</item>
+        <item>البدع</item>
+        <item>البرك</item>
+        <item>البكيرية</item>
+        <item>الجبيل</item>
+        <item>الجموم</item>
+        <item>الحائط</item>
+        <item>الحجرة</item>
+        <item>الحرث</item>
+        <item>الحريق</item>
+        <item>الحناكية</item>
+        <item>الخبر</item>
+        <item>الخرج</item>
+        <item>الخرخير</item>
+        <item>الخرمة</item>
+        <item>الخفجي</item>
+        <item>الدائر</item>
+        <item>الدرب</item>
+        <item>الدرعية</item>
+        <item>الدمام</item>
+        <item>الدوادمي</item>
+        <item>الرس</item>
+        <item>الرياض</item>
+        <item>الريث</item>
+        <item>الرين</item>
+        <item>الزلفي</item>
+        <item>السليل</item>
+        <item>السليمي</item>
+        <item>الشماسية</item>
+        <item>الشملي</item>
+        <item>الشنان</item>
+        <item>الطائف</item>
+        <item>الطوال</item>
+        <item>العارضة</item>
+        <item>العديد</item>
+        <item>العرضيات</item>
+        <item>العقيق</item>
+        <item>العلا</item>
+        <item>العويقيلة</item>
+        <item>العيدابي</item>
+        <item>العيص</item>
+        <item>الغاط</item>
+        <item>الغزالة</item>
+        <item>القرى</item>
+        <item>القريات</item>
+        <item>القطيف</item>
+        <item>القنفذة</item>
+        <item>القويعية</item>
+        <item>الكامل</item>
+        <item>الليث</item>
+        <item>المجاردة</item>
+        <item>المجمعة</item>
+        <item>المخواة</item>
+        <item>المدينة-المنورة</item>
+        <item>المذنب</item>
+        <item>المزاحمية</item>
+        <item>المندق</item>
+        <item>المويه</item>
+        <item>النبهانية</item>
+        <item>النعيرية</item>
+        <item>النماص</item>
+        <item>الوجه</item>
+        <item>أملج</item>
+        <item>بارق</item>
+        <item>بحرة</item>
+        <item>بدر</item>
+        <item>بدر-الجنوب</item>
+        <item>بريدة</item>
+        <item>بقعاء</item>
+        <item>بقيق</item>
+        <item>بلجرشي</item>
+        <item>بلقرن</item>
+        <item>بني-حسن</item>
+        <item>بيش</item>
+        <item>بيشة</item>
+        <item>تبوك</item>
+        <item>تثليث</item>
+        <item>تربة</item>
+        <item>تنومة</item>
+        <item>تيماء</item>
+        <item>ثادق</item>
+        <item>ثار</item>
+        <item>جازان</item>
+        <item>جدة</item>
+        <item>جزر-فرسان</item>
+        <item>حائل</item>
+        <item>حبونا</item>
+        <item>حريملاء</item>
+        <item>حفر-الباطن</item>
+        <item>حقل</item>
+        <item>حوطة-بني-تميم</item>
+        <item>خباش</item>
+        <item>خليص</item>
+        <item>خميس-مشيط</item>
+        <item>خيبر</item>
+        <item>دومة-الجندل</item>
+        <item>رابغ</item>
+        <item>رأس-تنورة</item>
+        <item>رجال-ألمع</item>
+        <item>رفحاء</item>
+        <item>رماح</item>
+        <item>رنية</item>
+        <item>رياض-الخبراء</item>
+        <item>سراة-عبيدة</item>
+        <item>سكاكا</item>
+        <item>سميراء</item>
+        <item>شرورة</item>
+        <item>شقراء</item>
+        <item>صامطة</item>
+        <item>صبيا</item>
+        <item>ضبا</item>
+        <item>ضرما</item>
+        <item>ضرية</item>
+        <item>ضمد</item>
+        <item>طبرجل</item>
+        <item>طريب</item>
+        <item>طريف</item>
+        <item>ظهران-الجنوب</item>
+        <item>عرعر</item>
+        <item>عفيف</item>
+        <item>عقلة-الصقور</item>
+        <item>عنيزة</item>
+        <item>عيون-الجواء</item>
+        <item>غامد-الزناد</item>
+        <item>فيفاء</item>
+        <item>قرية-العليا</item>
+        <item>قلوة</item>
+        <item>محايل-عسير</item>
+        <item>مرات</item>
+        <item>مكة-المكرمة</item>
+        <item>مهد-الذهب</item>
+        <item>موقق</item>
+        <item>ميسان</item>
+        <item>نجران</item>
+        <item>هروب</item>
+        <item>وادي-الدواسر</item>
+        <item>وادي-الفرع</item>
+        <item>يدمه</item>
+        <item>ينبع</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_requst_t">اطلب ناقلة</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+
+    </string>
+    <string name="title_activity_show_detils">بيانات الناقلة</string>
+    <string name="title_activity_driver">طلبات نقل</string>
+    <string name="title_activity_bey">طلب الناقلة</string>
+    <string name="title_activity_singup">سائق جديد</string>
+    <string name="title_activity_show_requst_ditils">بيانات الطلب</string>
+    <string name="title_activity_new_gi">رحلة جديدة</string>
+
+    <string name="town2">اختر موقعك</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_watting">Watting</string>
+    <string name="title_activity_splash_2">شروط الاستخدام</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_showw_detad">Showw_detad</string>
+    <string name="title_activity_get_users2">Get_users2</string>
+    <string name="title_activity_users_info">Users_info</string>
+    <string name="title_activity_add_news">Add_news</string>
+    <string name="title_activity_news_content">News_content</string>
+    <string name="title_activity_user_login">User_login</string>
+    <string name="title_activity_jeurney_ok">Jeurney_ok</string>
+    <string name="title_activity_req_done">Req_done</string>
+</resources>

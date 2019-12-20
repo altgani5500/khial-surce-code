@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tagog.first">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="خيّال للنقل"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="رحلات خارجة"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Reqqust" />
+        <activity android:name=".Splash2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Requst_t"
+            android:label="@string/title_activity_requst_t"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".Town"
+            android:label="@string/town" />
+        <activity android:name=".Ehtmamat" />
+        <activity
+            android:name=".Show_detils"
+            android:label="@string/title_activity_show_detils"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Driver"
+            android:label="رحلات مطلوبة"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bey"
+            android:label="@string/title_activity_bey"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Singup"
+            android:label="@string/title_activity_singup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Show_requst_ditils"
+            android:label="@string/title_activity_show_requst_ditils"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".New_gi"
+            android:label="@string/title_activity_new_gi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Town2"
+            android:label="@string/town2" />
+        <activity
+            android:name=".Upload"
+            android:label="ارفاق صورة السيارة" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".News"
+            android:label="اخبار خيّال"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".News2" />
+        <activity
+            android:name=".Watting"
+            android:label="رحلات"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splash_2"
+            android:label="@string/title_activity_splash_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin2"
+            android:label="حجوزات متفق عليها"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Showw_detad2"
+            android:label="معلومات الرحلة"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Get_users" />
+        <activity
+            android:name=".Get_users2"
+            android:label="@string/title_activity_get_users2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Users_info"
+            android:label="معلومات السائق"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Add_news"
+            android:label="اضافة خبر"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".News_content"
+            android:label="اخبار خيّال"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User_login"
+            android:label="مستخدم جديد"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Add_j2"
+            android:label="رحلات مطلوبة" />
+        <activity
+            android:name=".Watting_u"
+            android:label="طلبات" />
+        <activity
+            android:name=".Add_j3"
+            android:label="طلباتي " />
+        <activity
+            android:name=".Users_info2"
+            android:label="العمل علي الطلب "
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Requst_ted"
+            android:label="تعديل البيانات " />
+        <activity
+            android:name=".Add_j4"
+            android:label="رحلاتي" />
+        <activity
+            android:name=".Count"
+            android:label="الحسابات" />
+        <activity
+            android:name=".Jeurney_ok"
+            android:label=" رحلات مطلوبة متفق عليها"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Req_done"
+            android:label="معلومات الطلب"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vcode"
+            android:label="رقم التاكيد" />
+        <activity android:name=".User_re" />
+        <activity android:name=".Vcode_user"></activity>
+    </application>
+
+</manifest>

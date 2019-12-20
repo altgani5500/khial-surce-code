@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginBottom="4dp"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp">
+        <com.example.tagog.first.MyTextView2
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_below="@+id/imageView"
+            android:text="بتليتيت"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+
+
+
+        <com.example.tagog.first.MyTextView2
+            android:id="@+id/textViewTitle1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginLeft="5dp"
+
+            android:text="12/67/6758"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textStyle="normal|bold"
+            android:textSize="14sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="2dp" />
+
+        <com.example.tagog.first.MyTextView2
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textViewTitle1"
+            android:id="@+id/textView19"
+            android:textStyle="normal|bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_toLeftOf="@+id/textView21"
+            android:layout_toRightOf="@+id/textView42"
+            android:layout_toEndOf="@+id/textView42" />
+
+        <com.example.tagog.first.MyTextView2
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/holo_orange_dark"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_below="@+id/textViewTitle1" />
+
+        <com.example.tagog.first.MyTextView2
+            android:text="خيارات الطلب"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textView21"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="14sp"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textViewTitle1"
+            android:drawableLeft="@drawable/edi2"
+            android:elevation="2dp" />
+
+        <com.example.tagog.first.MyTextView2  android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView30"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView21"
+            android:layout_toRightOf="@+id/textView19"
+            android:layout_toEndOf="@+id/textView19" />
+
+        <com.example.tagog.first.MyTextView2
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView39" />
+
+        <TextView
+            android:text="الــي "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textViewTitle"
+            android:layout_toEndOf="@+id/textViewTitle"
+            android:id="@+id/textView42"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginRight="5dp"/>
+
+    </RelativeLayout>
+
+    <com.example.tagog.first.MyTextView2
+        android:id="@+id/textViewRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+
+        android:background="#294d6f"
+        android:paddingLeft="5dp"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:textSize="14sp"
+        android:layout_marginTop="0dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="1dp"
+
+
+        android:paddingTop="1dp"
+        android:drawableRight="@drawable/ho"
+        android:elevation="2dp"
+        android:textStyle="normal|bold"
+        android:gravity="right" />
+
+</LinearLayout>

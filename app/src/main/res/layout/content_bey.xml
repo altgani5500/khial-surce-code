@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tagog.first.Bey"
+    tools:showIn="@layout/bey"
+    android:background="#fff">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp">
+
+                <com.example.tagog.first.MyEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:id="@+id/editText5"
+                    android:layout_marginBottom="7dp"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:hint="الاسم"
+                    android:textSize="14sp"
+                    android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/test2222" />
+
+                <com.example.tagog.first.MyEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:id="@+id/editText6"
+                    android:layout_marginBottom="7dp"
+                    android:textColorLink="@android:color/holo_blue_light"
+                    android:hint="رقم الهاتف"
+                    android:gravity="right|center_vertical"
+                    android:textSize="14sp"
+                    android:drawableLeft="@android:drawable/ic_menu_always_landscape_portrait"
+                    android:inputType="phone"
+                    android:background="@drawable/test2222" />
+
+                <com.example.tagog.first.MyEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:id="@+id/editText7"
+                    android:gravity="right|center_vertical"
+                    android:hint="عدد الخيول التي تود نقلها"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="7dp"
+                    android:drawableLeft="@android:drawable/ic_menu_month"
+                    android:inputType="text|number"
+                    android:background="@drawable/test2222" />
+
+                <com.example.tagog.first.MyEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:ems="10"
+                    android:id="@+id/editText8"
+                    android:gravity="top|right|center_vertical"
+                    android:hint=" عنوان السكن والملاحظات"
+                    android:textSize="14sp"
+                    android:drawableLeft="@android:drawable/ic_menu_info_details"
+                    android:inputType="text"
+                    android:background="@drawable/test2222"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/action_button_size"
+                android:gravity="center"
+
+                android:elevation="1dp"
+                android:layout_marginBottom="20dp">
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="@android:dimen/app_icon_size"
+                    android:id="@+id/button8"
+                    android:background="@drawable/cross_icon" />
+
+                <com.example.tagog.first.MyTextView2
+                    android:text="اقرا الارشاددات"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.tagog.first.CustomButtona
+                    android:text="اتمام العملية"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button6"
+                    android:background="#294d6f"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:elevation="1dp"
+                    android:onClick="signup" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_watting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tagog.first.Watting_u"
+    tools:showIn="@layout/watting_u">
+
+    <com.example.tagog.first.MyTextView2
+
+        android:text="كل الطلبات :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textView44"
+        android:paddingRight="2dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:textColor="#113543" />
+    <android.support.v4.widget.SwipeRefreshLayout
+
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linearLayout"
+        android:id="@+id/swipe_container"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView44">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp" /></android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

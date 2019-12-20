@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tagog.first.Showw_detad"
+    tools:showIn="@layout/showw_detad">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ss"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:text="55RS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView59"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:elevation="1dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="مكان التحرك"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button5"
+
+                android:layout_alignParentLeft="false" />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="التجاني معتصم التجاني"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView4"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="الوجهة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+              />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="12345"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView6" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="تاريخ الرحلة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                 />
+            <com.example.tagog.first.MyTextView2
+                android:text="من جدة الي الرياض"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:textColor="#000"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView7" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="التوقيت"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+              />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="اربعون راس"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView8" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="عدد الخيول"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+
+                android:elevation="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="7/7/2018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView9" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="سعر الراس الواحد"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15" />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:gravity="right"
+                android:textColor="#000" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView5" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="طالب الناقلة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button51"
+
+                android:layout_alignParentLeft="false" />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="التجاني معتصم التجاني"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView41"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="رقم الهاتف"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView81"   />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="12345"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView71"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView61" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="عدد الخيول المطلوب نقلها"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView101"
+              />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="من جدة الي الرياض"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView91"
+                android:textColor="#000"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView71" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="ملاحظات"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView121"
+              />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="اربعون راس"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView111"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView81" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="هاتف صاحب الناقلة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView141"
+
+                android:elevation="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="7/7/2018"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView131"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView91" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="رقم اللوحة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView151" />
+
+            <com.example.tagog.first.MyTextView2
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView61"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:gravity="right"
+                android:textColor="#000" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:color/darker_gray"
+            android:id="@+id/imageView51" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|left|end"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/linearLayout">
+
+
+            <com.example.tagog.first.CustomButtona
+
+                android:text="اتصال بالسائق"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button44"
+
+                android:layout_centerVertical="true"
+                android:textColor="#fff"
+                android:layout_weight="2"
+
+                android:textSize="15dp"
+                android:textStyle="normal|bold"
+                android:drawableTop="@android:drawable/ic_menu_call"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+
+
+                android:background="?attr/colorAccent" />
+
+
+
+
+
+            <com.example.tagog.first.CustomButtona
+                android:text="اتصال بطالب الرحلة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button222"
+
+
+                android:layout_centerVertical="true"
+                android:textColor="#fff"
+
+
+                android:layout_weight="2"
+
+                android:textSize="15dp"
+                android:textStyle="normal|bold"
+                android:drawableTop="@android:drawable/ic_menu_call"
+                android:background="?attr/colorAccent" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.v4.widget.NestedScrollView>

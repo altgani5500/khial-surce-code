@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_user_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tagog.first.User_login"
+    tools:showIn="@layout/user_login"
+    android:background="#ffffff">
+
+    <com.example.tagog.first.CustomButtona
+        android:text="دخول كزائر"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#113543"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/b"
+        android:id="@+id/imageView13"
+
+        android:layout_above="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout3"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <com.example.tagog.first.MyTextView2
+                android:id="@+id/textViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="متابعة"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+android:textSize="17dp"
+                android:layout_below="@+id/editText9"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="false"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp" />
+                <!--android:drawableRight="@android:drawable/sym_action_call" />-->
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+
+                android:layout_centerHorizontal="true"
+                android:id="@+id/editText11"
+                android:hint="ادخل اسمك هنا"
+                android:drawableLeft="@drawable/pr"
+                android:layout_marginTop="5dp"
+                android:elevation="1dp" />
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/editText9"
+                android:hint="رقم الهاتف بدون صفر"
+                android:layout_below="@+id/editText11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:maxLength="10"
+                android:elevation="1dp"
+                android:drawableLeft="@drawable/cun"
+                android:gravity="center_vertical|center" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

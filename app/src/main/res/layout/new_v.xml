@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="10dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/btt">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"
+        android:elevation="2dp">
+
+        <com.example.tagog.first.MyTextView2
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:id="@+id/editText9"
+
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:inputType="text"
+
+            android:elevation="1dp"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="4dp"
+            android:text="تتوفر تحسينات جديدة الرجاء التحديث"
+            android:textColor="#4772eb"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/editText10">
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:inputType="phone"
+            android:ems="10"
+
+            android:id="@+id/editText7"
+            android:background="@drawable/btt2"
+
+            android:gravity="center"
+
+
+            android:text="تحديث"
+            android:textColor="#4772eb"
+            android:textSize="18sp"
+            android:layout_below="@+id/editText9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:inputType="textEmailAddress"
+
+            android:ems="10"
+            android:id="@+id/editText10"
+            android:background="@drawable/btn_bg"
+
+            android:gravity="center"
+            android:text="الغاء"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:elevation="1dp"
+            android:layout_below="@+id/editText7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tagog.first.Singup"
+    tools:showIn="@layout/add_news">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <com.example.tagog.first.MyTextView2
+                android:text="اضغط هنا لارفاق صورة الخبر:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:gravity="center" />
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/imageView3"
+                android:background="@android:drawable/ic_menu_camera"
+                android:gravity="right|center_vertical|center_horizontal|center"
+                android:layout_gravity="center" />
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView12" />
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:layout_marginBottom="7dp"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="عنوان الخبر"
+                android:textSize="@dimen/text_margin"
+                android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+                android:inputType="textPersonName"
+                android:background="@drawable/test2222" />
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="محتوي الخبر"
+                android:gravity="top|right|center_vertical"
+                android:textSize="@dimen/action_button_content_margin"
+                android:inputType="textMultiLine"
+                android:background="@drawable/test2222"
+                android:layout_marginBottom="30dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.tagog.first.CustomButtona
+                android:text="ارسال الخبر"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:background="#294d6f"
+                android:textColor="#fff"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:elevation="1dp"
+                android:onClick="signup"
+                android:textStyle="normal|bold"
+                android:layout_marginBottom="25dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

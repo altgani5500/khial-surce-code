@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.tagog.first.MyTextView2
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra)"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView"
+            android:textStyle="normal|bold" />
+
+        <com.example.tagog.first.MyTextView2
+            android:id="@+id/textViewTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="3dp"
+            android:text="13.3 Inch, 256 GB"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_alignRight="@+id/textViewTitle"
+            android:layout_alignEnd="@+id/textViewTitle"
+            android:layout_toRightOf="@+id/textViewPrice"
+            android:layout_toEndOf="@+id/textViewPrice"
+            android:maxLines="3"
+            android:layout_marginBottom="3dp" />
+
+        <com.example.tagog.first.MyTextView2
+            android:id="@+id/textViewPrice"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/textViewRating"
+            android:layout_marginTop="5dp"
+            android:text="INR 56990"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/list" />
+
+        <com.example.tagog.first.MyTextView2
+            android:text="اقرا المزيد"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTitle1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView25"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"
+            android:textSize="12sp" />
+
+        <com.example.tagog.first.MyTextView2
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView25"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView26" />
+
+        <com.example.tagog.first.MyTextView2
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView26"
+
+            android:id="@+id/textView27"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/textView17"
+        android:background="#294d6f"
+        android:elevation="1dp" />
+
+</LinearLayout>

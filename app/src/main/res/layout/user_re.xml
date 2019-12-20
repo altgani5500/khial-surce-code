@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tagog.first.Login"
+    android:background="#fff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <com.example.tagog.first.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:layout_marginBottom="7dp"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="ادخل اسمك"
+                android:textSize="@dimen/text_margin"
+                android:gravity="center_vertical|center" />
+
+            <com.example.tagog.first.MyEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:layout_marginBottom="20dp"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:hint="رقم الهاتف بدون صفر"
+                android:gravity="center_vertical|center"
+                android:textSize="@dimen/action_button_content_margin"
+                android:elevation="1dp"
+                android:inputType="phone"
+                android:drawableLeft="@drawable/cucode" />
+
+            <com.example.tagog.first.CustomButtona
+                android:text="متابعة"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:background="#294d6f"
+                android:textColor="#fff"
+                android:layout_marginBottom="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/button88"
+                android:background="#fff"
+                android:text="شروط الاستخدام"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/linearLayout5"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button19"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/icon" />
+
+</RelativeLayout>
